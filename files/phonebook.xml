@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AddressBook>
+    <Contact>
+        <FirstName>User1</FirstName>
+        <LastName></LastName>
+        <Ringtone>0</Ringtone>
+        <Phone type="Work">
+            <phonenumber>201</phonenumber>
+        </Phone>
+    </Contact>
+
+    <Contact>
+        <FirstName>User2</FirstName>
+        <LastName></LastName>
+        <Ringtone>0</Ringtone>
+        <Phone type="Work">
+            <phonenumber>202</phonenumber>
+        </Phone>
+    </Contact>
+
+</AddressBook>

@@ -1,0 +1,12 @@
+version: "3"
+services:
+  ubuntu:
+    container_name: tftp
+    build:
+      context: .
+    restart: on-failure
+    ports:
+    - '69:69'
+    volumes:
+    - ./files:/srv/tftp
+    - ./cgi-bin:/usr/lib/cgi-bin
