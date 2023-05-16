@@ -1,6 +1,12 @@
 # TFTP
 This project will help you to set up a TFTP server.
 
+Just run:
+
+```bash
+docker-compose up -d
+```
+
 All files on the server are located in the `/srv/tftp` folder. On the local machine it is the folder `files`.
 
 To check the server operation, install the `tftp` client. For example, on Ubuntu:
