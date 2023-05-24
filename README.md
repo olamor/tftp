@@ -27,6 +27,13 @@ Then the `phonebook.xml` file will be available to you (in this example). To dow
 get phonebook.xml
 ```
 
+> **_NOTE:_**   
+> If you don't get the file try this:
+
+```bash
+docker exec -d tftp /etc/init.d/openbsd-inetd restart
+```
+
 To exit the `tftp` client type:
 
 ```bash
